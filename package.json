@@ -1,0 +1,41 @@
+{
+  "name": "taptalk-node-api",
+  "version": "0.0.1",
+  "description": "Taptalk API in NodeJS",
+  "main": "lib/index.js",
+  "scripts": {
+    "console": "node index.cli.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taptalk/taptalk-node-api.git"
+  },
+  "keywords": [
+    "Taptalk",
+    "Tapstacjk",
+    "REST",
+    "API"
+  ],
+  "author": "Leo Vandriel",
+  "license": "BSD-3-Clause",
+  "files": [
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/taptalk/taptalk-node-api/issues"
+  },
+  "homepage": "https://github.com/taptalk/taptalk-node-api#readme",
+  "devDependencies": {
+    "@leonardvandriel/interact": "github:taptalk/interact",
+    "archiver": "^1.3.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "request": "^2.81.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
+}
